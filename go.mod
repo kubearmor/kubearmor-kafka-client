@@ -9,9 +9,10 @@ replace (
 )
 
 require (
+	github.com/confluentinc/confluent-kafka-go v1.7.0 // indirect
+	github.com/kubearmor/KubeArmor/protobuf v0.0.0-20210706103022-a88ee52bbf8a // indirect
 	github.com/kubearmor/kubearmor-kafka-client/common v0.0.0-00010101000000-000000000000 // indirect
 	github.com/kubearmor/kubearmor-kafka-client/core v0.0.0-00010101000000-000000000000
-	github.com/confluentinc/confluent-kafka-go v1.7.0 // indirect
 	google.golang.org/grpc v1.35.0 // indirect
 	gopkg.in/confluentinc/confluent-kafka-go.v1 v1.7.0 // indirect
 )

@@ -29,4 +29,4 @@ push-image:
 .PHONY: clean
 clean:
 	cd $(CURDIR); sudo rm -f kubearmor-kafka-client
-	cd $(CURDIR); find . -name go.sum | xargs -I {} rm -f {}
+	#cd $(CURDIR); find . -name go.sum | xargs -I {} rm -f {}
