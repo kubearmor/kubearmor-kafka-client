@@ -30,5 +30,5 @@ If the Kafka system is ready, you can simply deploy the Kafka client for KubeArm
 
 ```
 $ cd kubearmor-kafka-client/deployments
-~/kubearmor-kafka-client/deployments$ kubectl apply -n [Namespace] -f client-deployment.yaml
+~/kubearmor-kafka-client/deployments$ kubectl apply -n [target namespace] -f client-deployment.yaml
 ```
